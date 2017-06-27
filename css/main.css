@@ -1792,7 +1792,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff4f05;
+  background: #1739fe;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2883,15 +2883,86 @@ hr {
     text-align: center;
   }
 }
+body {
+  background: url("/images/brickwall.png") repeat;
+}
 .post {
   margin-top: 60px;
   margin-bottom: 60px;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+  padding: 10px 25px;
+  background: rgba(248,244,216,0.7);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(202,203,203,0.8);
+  -webkit-box-shadow: 3px 5px 10px rgba(202,203,203,0.8);
+  -moz-box-shadow: 3px 5px 10px rgba(202,203,203,0.8);
+}
+.posts-expand .post-title-link {
+  color: #c49556;
+}
+.posts-expand a.post-title-link:hover {
+  color: #177af2;
+}
+.posts-expand .post-title-link::before {
+  background-color: #177af2;
 }
 .site-title {
-  font-size: 28px;
   font-family: 'Comic Sans MS', sans-serif;
+  color: #000;
+  top: 0px;
+  left: 120px;
+}
+.site-meta .site-title {
+  font-size: 20px;
+  color: #6e6b6e;
+}
+.copyright {
+  text-align: center;
+}
+.menu .menu-item a {
+  font-size: 16px;
+}
+.menu-item-home a {
+  color: #72c45d;
+}
+.menu-item-categories a {
+  color: #bf7c37;
+}
+.menu-item-archives a {
+  color: #7da3bf;
+}
+.menu-item-tags a {
+  color: #a35973;
+}
+.menu-item-shoot a {
+  color: #898888;
+}
+.header-inner,
+.footer-inner,
+.main-inner {
+  width: 960px;
+}
+.footer-inner {
+  text-align: center;
+}
+.post-button {
+  text-align: right;
+}
+.post-button .btn {
+  background: #197cf4;
+  padding: 2px 15px;
   color: #fff;
+  border-radius: 5px;
+}
+.logo-line-before i {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background: url("/images/logo.png");
+  position: absolute;
+}
+.use-motion .logo-line-before i {
+  left: -40%;
+}
+.logo-line-after {
+  display: none;
 }
