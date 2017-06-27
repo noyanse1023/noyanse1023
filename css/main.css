@@ -1792,7 +1792,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1739fe;
+  background: #62ff66;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2905,6 +2905,14 @@ body {
 .posts-expand .post-title-link::before {
   background-color: #177af2;
 }
+.logo-line-before i {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background: url("/images/logo.png") repeat;
+  background-size: cover;
+  position: absolute;
+}
 .site-title {
   font-family: 'Comic Sans MS', sans-serif;
   color: #000;
@@ -2919,7 +2927,7 @@ body {
   text-align: center;
 }
 .menu .menu-item a {
-  font-size: 16px;
+  font-size: 14px;
 }
 .menu-item-home a {
   color: #72c45d;
@@ -2941,6 +2949,9 @@ body {
 .main-inner {
   width: 960px;
 }
+.header-inner {
+  padding: 10px 0 12px;
+}
 .footer-inner {
   text-align: center;
 }
@@ -2953,12 +2964,8 @@ body {
   color: #fff;
   border-radius: 5px;
 }
-.logo-line-before i {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
-  background: url("/images/logo.png");
-  position: absolute;
+.footer {
+  background: none;
 }
 .use-motion .logo-line-before i {
   left: -40%;
