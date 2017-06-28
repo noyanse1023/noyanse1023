@@ -1792,7 +1792,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6af6df;
+  background: #21958c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2887,14 +2887,18 @@ body {
   background: url("/images/brickwall.png") repeat;
 }
 .post {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px 25px;
   background: rgba(248,244,216,0.7);
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(202,203,203,0.8);
   -webkit-box-shadow: 3px 5px 10px rgba(202,203,203,0.8);
   -moz-box-shadow: 3px 5px 10px rgba(202,203,203,0.8);
+}
+.posts-expand .post {
+  margin-bottom: 25px;
+  margin-top: 25px;
 }
 .posts-expand .post-title-link {
   color: #c49556;
@@ -2972,4 +2976,11 @@ body {
 }
 .logo-line-after {
   display: none;
+}
+.tag-cloud-tags a {
+  color: #6e6b6e !important;
+  background: #b0c4de;
+  padding: 5px 30px;
+  color: #fff !important;
+  border-radius: 10px;
 }
